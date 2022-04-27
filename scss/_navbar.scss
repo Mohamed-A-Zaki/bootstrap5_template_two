@@ -1,0 +1,41 @@
+.navbar {
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 30px;
+    color: $main-color;
+    transition: $main-transition;
+    &:hover {
+      color: rgba($main-color, 0.85);
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        &::before {
+          @include overlay(#000, 0.05);
+          width: 0;
+          border-bottom: 2px solid $main-color;
+          transition: $main-transition / 2;
+        }
+        &.active,
+        &:hover,
+        &:focus {
+          color: $main-color;
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+      .dropdown-menu {
+        top: calc(100% + 10px);
+        min-width: 13rem;
+        .dropdown-item {
+          transition: $main-transition;
+          &:hover {
+            padding-left: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

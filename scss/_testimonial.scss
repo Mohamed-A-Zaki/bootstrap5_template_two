@@ -1,0 +1,13 @@
+.testimonial {
+  @include back-ground-img("../img/testimonials-bg.jpg");
+  &::before {
+    @include overlay(#000, 0.5);
+  }
+  .carousel-item {
+    height: 50vh;
+    img {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+}

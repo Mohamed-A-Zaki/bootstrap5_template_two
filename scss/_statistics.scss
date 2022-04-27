@@ -1,0 +1,10 @@
+.statistics {
+  .item {
+    background-color: $secondary-color;
+    svg {
+      background-color: $main-color;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

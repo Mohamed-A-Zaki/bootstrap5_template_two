@@ -1,0 +1,13 @@
+@mixin back-ground-img($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin overlay($color, $opacity) {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba($color, $opacity);
+}

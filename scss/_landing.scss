@@ -1,0 +1,27 @@
+.landing {
+  @include back-ground-img("../img/landing.jpg");
+  height: calc(100vh - 71px);
+  &::before {
+    @include overlay(#fff, 0.75);
+  }
+  h1 {
+    font-weight: 400;
+    span {
+      color: $main-color;
+    }
+  }
+  .get-start {
+    background-color: $main-color;
+    &:hover {
+      background-color: #0952b2;
+    }
+  }
+  .video {
+    border: 1px solid $main-color;
+    transition: $main-transition;
+    &:hover {
+      background-color: $main-color;
+      color: #fff;
+    }
+  }
+}

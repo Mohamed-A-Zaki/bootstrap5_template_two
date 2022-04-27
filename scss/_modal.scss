@@ -1,0 +1,10 @@
+.modal {
+  .modal-dialog {
+    transform: scale(0) !important;
+  }
+  &.show {
+    .modal-dialog {
+      transform: none !important;
+    }
+  }
+}
