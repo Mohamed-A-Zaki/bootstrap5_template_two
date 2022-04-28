@@ -2,7 +2,7 @@
 
 Responsive Template using bootstrap5.
 
-this template from : https://www.youtube.com/playlist?list=PLnD96kXp-_pMJp3stPetkN76AJ2mmeah7
+This Template From : https://www.youtube.com/playlist?list=PLnD96kXp-_pMJp3stPetkN76AJ2mmeah7
 
 # libraries used in this template :
 
