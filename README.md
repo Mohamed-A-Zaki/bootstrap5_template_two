@@ -6,24 +6,24 @@ this template from : https://www.youtube.com/playlist?list=PLnD96kXp-_pMJp3stPet
 
 # libraries used in this template :
 
-[1] : Aos for animation on scroll
-
-[2] : light gallery
-
-[3] : Bootstrap
+    [1] : Aos for animation on scroll
+    
+    [2] : light gallery
+    
+    [3] : Bootstrap
 
 # Components used from bootstrap :
 
-[1] : navbar
+    [1] : navbar
 
-[2] : Carousel
+    [2] : Carousel
 
-[3] : Scrollspy
+    [3] : Scrollspy
 
-[4] : Progress
+    [4] : Progress
 
-[5] : Button group
+    [5] : Button group
 
-[6] : Dropdowns
+    [6] : Dropdowns
 
-[7] : Modal
+    [7] : Modal
